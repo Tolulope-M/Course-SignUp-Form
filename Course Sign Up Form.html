@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <h1>Kindly Fill In The Correct Information Below</h1>
+    <form>
+        <label for="FName">First Name:</label>
+        <input type="text" id="Fname" placeholder="First Name" required><br>
+        <label for="LName">Last Name:</label>
+        <input type="text" id="Lname" placeholder="Last Name" required><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" placeholder="Email Address" required><br>
+        <label for="password">Password</label>
+        <input type="password" id=Password" placeholder="Password" required><br>
+        
+
+    <h3>Are you above the age of 18?</h3>
+        <label for="Yes">Yes</label>
+        <input type="radio" id="yes" name="yes">
+        <label for="No">No</label>
+        <input type="radio" id="no" name="yes">
+
+    <h3>What option will you like to pay with?</h3>
+    <select>
+        <option value="choose">--Choose One--</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="PayPal">PayPal</option>
+   </select>
+   <input type="submit" value="Submit">
+   </form>
+</body>
+</html>
